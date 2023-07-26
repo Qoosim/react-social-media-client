@@ -1,0 +1,78 @@
+.register {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0f2f5;
+}
+
+.registerWrapper {
+  width: 70%;
+  height: 70%;
+  display: flex;
+}
+
+.registerLeft, .registerRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.registerLogo {
+  font-size: 50px;
+  font-weight: 800;
+  color: #1775ee;
+  margin-bottom: 10px;
+}
+
+.registerDesc {
+  font-size: 24px;
+}
+
+.registerBox {
+  height: 400px;
+  padding: 20px;;
+  background: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.registerInput {
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+.registerInput:focus {
+  outline: none;
+}
+
+.registerButton {
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background: #1775ee;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+}
+
+.loginButton {
+  width: 50%;
+  align-self: center;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background: #42b72a;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  cursor: pointer;
+}
